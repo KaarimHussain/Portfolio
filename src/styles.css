@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Some Custom Classes */
+
+
+.fw-bolder {
+    font-weight: 800 !important;
+}
+
+.heading-text {
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.heading-text-2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.text-sxl {
+    font-size: 0.8rem;
+}
+
+.h-min-100 {
+    min-height: 100vh;
+}
